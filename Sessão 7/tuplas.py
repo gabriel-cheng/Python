@@ -40,6 +40,7 @@ Tuplas com range
 
 tupla = tuple(range(10))
 print(tupla)
+print(tupla)
 
 
 
