@@ -38,9 +38,13 @@ Forma 2 - Recomendado (Utilizando get)
 print(paises.get('br'))
 print(paises.get('ru'))
 
+pais = paises.get('py')
+pais = paises.get('py', 'Sei lá')
 
-
-
+if pais:
+    print(f'Encontrei o {pais}')
+else:
+    print(f'Não encontrei o {pais}')
 
 
 
