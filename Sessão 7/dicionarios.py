@@ -6,6 +6,7 @@ Dicionários
 - São representados por chaves {}
 - dicionario = {'chave': 'valor, 'chave': 'valor'}
 - Tanto a chave quanto o valor podem ser de qualquer tipo
+- Podemos utilizar qualquer tipo de dado (int, str, float, bool, dict, tuplas, listas, etc.)
 """
 """
 Forma 1 - mais comum
@@ -45,22 +46,44 @@ if pais:
     print(f'Encontrei o {pais}')
 else:
     print(f'Não encontrei o {pais}')
+##########################################################################
+"""
+Verificando se o elemento está dentro da lista
+"""
+nomes = dict(
+    ga='Gabriel',
+    he='Henrique',
+    so='Souza'
+)
 
 
+print('ga' in nomes) # É possível verificar somente a chave com este método
 
+if 'ca' in nomes:
+    Carvalho = nomes['ca']
+##########################################################################
+"""
+Adicionando elementos em dicionários
+"""
+# Forma 1 - Mais comum
+nomes = dict(
+    ga='Gabriel',
+    he='Henrique',
+    so='Souza'
+)
 
+print(nomes)
 
+nomes['ca'] = 'Carvalho'
 
+print(nomes)
 
+# Forma 2
+novo_nome = {'si': 'Silva'}
+print(nomes)
 
-
-
-
-
-
-
-
-
+nomes.update(novo_nome) # nomes.update({'si': 'Silva']})   <- Também pode ser utilizado
+print(nomes)
 
 
 
