@@ -201,7 +201,7 @@ d.clear()
 print(d)
 ##########################################################################
 """
-Copiando dicionários com copy()
+Copiando dicionários com copy() - Deep Copy
 """
 d = dict(a=1, b=2, c=3)
 print(d, 'Dict d')
@@ -211,11 +211,42 @@ novo = d.copy()
 print(novo, 'Dict novo')
 novo['d'] = 4
 print(novo, 'Dict novo+4')
+
+"""
+Shallow Copy
+"""
+novo = d
+print(novo, 'Shallow Copy')
 ##########################################################################
+"""
+Método não usual de criação de dicionários
+"""
 
+outro = {}.fromkeys('a', 'b') # 'a' é a chave e 'b' é o valor
 
+print(outro)
+print(type(outro))
 
+# Outra forma
 
+outro = {}.fromkeys(['nome', 'email', 'sexo'], 'desconhecido')
+# Todas as strings dentro da crave são chaves de 'desconhecido'
+
+print(outro)
+print(type(outro))
+
+# Outra forma
+
+outro = {}.fromkeys('chave', 'valor')
+# Cada letra da palavra 'chave' se tornou uma chave com valores iguais a 'valor'
+# Lembrando: em dicionários Python, não há repetição de chaves.
+print(outro)
+
+# Outra forma
+
+usingRange = {}.fromkeys(range(1, 11), 'valor')
+print(usingRange)
+##########################################################################
 
 
 
