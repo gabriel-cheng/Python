@@ -56,7 +56,6 @@ nomes = dict(
     so='Souza'
 )
 
-
 print('ga' in nomes) # É possível verificar somente a chave com este método
 
 if 'ca' in nomes:
@@ -64,6 +63,8 @@ if 'ca' in nomes:
 ##########################################################################
 """
 Adicionando elementos em dicionários
+- Não podemos ter chaves repetidas
+- Caso você adicionar uma chave repetida, será alterado o valor daquela chave, e não adicionado
 """
 # Forma 1 - Mais comum
 nomes = dict(
@@ -85,9 +86,31 @@ print(nomes)
 nomes.update(novo_nome) # nomes.update({'si': 'Silva']})   <- Também pode ser utilizado
 print(nomes)
 
+# Atualizando conteúdo
 
+nomes['ga'] = 'Rafael'
+print(nomes)
 
+nomes.update({'he': 'Antônio'})
+print(nomes)
 
+##########################################################################
+"""
+Deletando elementos
+
+"""
+# Forma 1
+# Neste caso, o valor é retornado.
+nomes = dict(ga='Gabriel', he='Henrique', so='Souza', ca='Carvalho')
+print(nomes)
+
+nomes.pop('so')
+print(nomes)
+
+# Forma 2 - Forma mais comum
+# Neste caso, o valor não é retornado.
+del nomes['ca']
+print(nomes)
 
 
 

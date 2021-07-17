@@ -149,7 +149,7 @@ lista = lista * 3
 print(lista)
 #############################################################
 """
-Transformando string em lista com (slipt())
+Transformando string em lista com (split())
 """
 nome = 'Gabriel Carvalho'
 

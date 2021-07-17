@@ -41,7 +41,7 @@ O RANGE nunca vai imprimir o último valor, a menos que seja informado manualmen
 """
 nome = 'Gabriel Carvalho'
 
-for letra in enumerate(nome): # "Enumerate" é um objeto que enumera toda a string
+for letra in enumerate(nome): # "Enumerate" é uma função que enumera toda a string
     print(letra)
 
 print("*///////////////////////////////////////*")
