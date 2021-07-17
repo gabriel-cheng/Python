@@ -97,7 +97,6 @@ print(nomes)
 ##########################################################################
 """
 Deletando elementos
-
 """
 # Forma 1
 # Neste caso, o valor é retornado.
@@ -111,6 +110,109 @@ print(nomes)
 # Neste caso, o valor não é retornado.
 del nomes['ca']
 print(nomes)
+print('##########################################################################')
+"""
+Site de e-commerce com lista
+
+produtos = ['Playstation 5', 'Refrigerante', 'Macarrão']
+print(produtos)
+
+print()
+
+print('Para sair sair digite "sair"')
+print('Para limpar o carrinho digite "limpar carrinho"')
+
+print()
+
+carrinho = []
+cliente = ' '
+
+while cliente != 'sair':
+    cliente = input('+Adicionar ao carrinho...: ')
+    carrinho.append(cliente)
+    if cliente == 'sair':
+        carrinho.pop()
+        print(carrinho)
+    elif cliente == 'clear' or cliente == 'limpar':
+        carrinho.clear()
+        print(carrinho)
+for i, p in enumerate(carrinho):
+    print(i, p)
+"""
+##########################################################################
+"""
+Site de e-commerce com Tuplas
+- A tupla como sendo imutável, não se pode adicionar elementos usando append()
+- O tipo do carrinho será sempre como lista, os produtos podem ser tuplas.
+
+
+produtos = ('Playstation 5', 'Refrigerante', 'Macarrão')
+print(produtos)
+
+print()
+
+print('Para sair sair digite "sair"')
+print('Para limpar o carrinho digite "limpar carrinho"')
+
+print()
+
+carrinho = []
+cliente = ' '
+
+while cliente != 'sair':
+    cliente = input('+Adicionar ao carrinho...: ')
+    carrinho.append(cliente)
+    if cliente == 'sair':
+        carrinho.pop()
+        print(carrinho)
+    elif cliente == 'clear' or cliente == 'limpar':
+        carrinho.clear()
+        print(carrinho)
+for i, p in enumerate(carrinho):
+    print(i, p)
+print(type(produtos))
+"""
+##########################################################################
+"""
+Sistema de e-commerce com dicionários
+
+
+produtos = dict(ps4='Playstation 4', refri='Refrigerante', uva='Uva')
+print(produtos)
+
+carrinho = dict()
+cliente = ' '
+
+while cliente != 'sair':
+    cliente = input('+Adicionar ao carrinho...: ')
+    carrinho.append(cliente)
+    if cliente == 'sair':
+        carrinho.pop()
+print(carrinho)
+"""
+##########################################################################
+"""
+Limpando um dicionários utilizando clear()
+"""
+d = dict(a=1, b=2, c=3)
+print(d)
+
+d.clear()
+print(d)
+##########################################################################
+"""
+Copiando dicionários com copy()
+"""
+d = dict(a=1, b=2, c=3)
+print(d, 'Dict d')
+
+novo = d.copy()
+
+print(novo, 'Dict novo')
+novo['d'] = 4
+print(novo, 'Dict novo+4')
+##########################################################################
+
 
 
 

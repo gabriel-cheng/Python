@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ada3cc05-f5c2-4895-83f6-70302698024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sessão 7/market_alg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sessão 6/loop_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sessão 6/loop_for.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sessão 7/dicionarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sessão 7/dicionarios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sessão 7/revisão_lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sessão 7/revisão_lista.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sessão 7/dicionarios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="157">
+              <caret line="212" column="74" selection-start-line="212" selection-start-column="74" selection-end-line="212" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sessão 7/market_alg.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sessão 7/tuplas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="295">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -40,8 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sessão 7/lista.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-943">
+            <state relative-caret-position="713">
               <caret line="114" selection-start-line="114" selection-end-line="114" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sessão 7/revisão_lista.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="755">
+              <caret line="151" column="37" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -87,9 +92,9 @@
         <option value="$PROJECT_DIR$/Sessão 7/tipo_non.py" />
         <option value="$PROJECT_DIR$/Sessão 7/tipo_none.py" />
         <option value="$PROJECT_DIR$/Sessão 7/revisão_lista.py" />
-        <option value="$PROJECT_DIR$/Sessão 7/dicionarios.py" />
         <option value="$PROJECT_DIR$/Sessão 6/loop_for.py" />
         <option value="$PROJECT_DIR$/Sessão 7/market_alg.py" />
+        <option value="$PROJECT_DIR$/Sessão 7/dicionarios.py" />
       </list>
     </option>
   </component>
@@ -112,11 +117,6 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Sessão 6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -146,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.market_alg">
+  <component name="RunManager" selected="Python.dicionarios">
     <configuration name="and_or_not_is" type="PythonConfigurationType" factoryName="Python">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,9 +275,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dicionarios" />
         <item itemvalue="Python.market_alg" />
         <item itemvalue="Python.loop_for" />
-        <item itemvalue="Python.dicionarios" />
         <item itemvalue="Python.tipo_none" />
         <item itemvalue="Python.tuplas" />
       </list>
@@ -298,13 +298,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23586309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.3139932" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.3139932" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,31 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sessão 7/revisão_lista.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1407">
-          <caret line="151" column="37" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sessão 7/tuplas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sessão 6/revisao_loop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sessão 7/dicionarios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
@@ -485,17 +465,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sessão 7/market_alg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sessão 7/lista.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-943">
+        <state relative-caret-position="713">
           <caret line="114" selection-start-line="114" selection-end-line="114" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sessão 7/market_alg.py">
+    <entry file="file://$PROJECT_DIR$/Sessão 7/tuplas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="295">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sessão 7/revisão_lista.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="151" column="37" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sessão 7/dicionarios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="212" column="74" selection-start-line="212" selection-start-column="74" selection-end-line="212" selection-end-column="74" />
         </state>
       </provider>
     </entry>
