@@ -18,7 +18,7 @@ EXEMPLO DE PRINT MODERNO
 # print("Seja bem-vindp(a) {0}".format(nome))
 
 """
-EXEMPLO DE PRINT MAIS ATUAL
+EXEMPLO DE PRINT MAIS ATUAL (Interpolação)
 """
 
 # print(f"Seja bem-vindo(a) {nome}")
@@ -42,4 +42,4 @@ Exemplo:
 - Aspas duplas -> "Angelina Jolie"
 - Aspas simples triplas -> '''Angelina Jolie'''
 """
-#- Aspas duplas triplas -> """Angelina Jolie"""
+# - Aspas duplas triplas -> """Angelina Jolie"""
