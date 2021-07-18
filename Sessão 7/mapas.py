@@ -52,7 +52,7 @@ for chave, valor in luas.items():
 ###############################################################
 """
 Valor máximo, minimo e tamanho
-* O comando 'sum' só pode ser utilizado em valores INT ou FLOAT
+* O comando 'sum' só deve ser utilizado em valores INT ou FLOAT
 """
 print()
 print("Valores máximo, mínimo e o tamanho")
